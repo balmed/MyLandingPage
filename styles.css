@@ -1,0 +1,30 @@
+/* Basic styling */
+.intro-section {
+    background-image: url('cover-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.feature-section {
+    padding: 50px;
+}
+
+.feature {
+    margin-bottom: 50px;
+}
+
+.about-section {
+    padding: 50px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
