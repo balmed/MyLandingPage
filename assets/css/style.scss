@@ -2,3 +2,51 @@
 ---
 
 @import "{{ site.theme }}";
+/* Basic styling */
+.intro-section {
+    background-image: url('cover-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.feature-section {
+    padding: 50px;
+}
+
+.feature {
+    margin-bottom: 50px;
+}
+
+.about-section {
+    padding: 50px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-members a {
+    margin: 0 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
